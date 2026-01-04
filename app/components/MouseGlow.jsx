@@ -1,26 +1,33 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
 
 export default function MouseGlow() {
-  const [pos, setPos] = useState({ x: 0, y: 0 });
+  const glowRef = useRef(null);
 
   useEffect(() => {
     const move = (e) => {
-      setPos({ x: e.clientX, y: e.clientY });
+      if (!glowRef.current) return;
+
+      glowRef.current.style.setProperty("--x", `${e.clientX}px`);
+      glowRef.current.style.setProperty("--y", `${e.clientY}px`);
     };
+
     window.addEventListener("mousemove", move);
     return () => window.removeEventListener("mousemove", move);
   }, []);
 
   return (
     <div
+      ref={glowRef}
       className="pointer-events-none fixed inset-0 -z-10"
       style={{
-        background: `radial-gradient(
-          400px at ${pos.x}px ${pos.y}px,
-          rgba(168, 85, 247, 0.18),
-          transparent 60%
-        )`,
+        background: `
+          radial-gradient(
+            400px at var(--x) var(--y),
+            rgba(168, 85, 247, 0.18),
+            transparent 60%
+          )
+        `,
       }}
     />
   );

@@ -32,7 +32,7 @@ export default function About() {
         {/* RESUME BUTTON */}
         <div className="flex justify-center">
           <a
-            href="/Vishal-Resume.pdf"
+            href="/resume vishal.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 rounded-full border border-purple-500
