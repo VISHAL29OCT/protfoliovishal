@@ -6,6 +6,7 @@ const projects = [
     title: "Zenze Charge Website",
     tech: "HTML · CSS · JavaScript",
     github: "https://github.com/VISHAL29OCT/zenze-charge-website",
+    live: "https://zenze-charge-website.vercel.app",
     desc: "Landing page website built for Zenze Charge with responsive layout and modern UI.",
   },
   {
@@ -13,17 +14,20 @@ const projects = [
     title: "Link Shortener",
     tech: "MongoDB · API",
     github: "https://github.com/VISHAL29OCT/linkshortner",
-    live: "linkshortner-ow7xxrpw0-vishal29octs-projects.vercel.app",
+    live: "https://linkshortner-o1rl.vercel.app",
     desc: "A modern web project focused on performance, UX, and clean design.",
   },
-  {
-  id: "linktreedub",
-  title: "Linktree Clone",
-  tech: "Next.js · Tailwind CSS",
-  github: "https://github.com/VISHAL29OCT/linktreedub",
-  desc: "A Linktree-style link-in-bio application built with Next.js and Tailwind CSS.",
-},
+{
+  id: "digitalgraveyard",
+  title: "Digital Graveyard",
+  tech: "React.js · Node.js · Express.js · MongoDB ",
+  github: "https://github.com/VISHAL29OCT/digitalgraveyardfrontend",
+  live: "https://digitalgraveyardfrontend.vercel.app",
+  desc: "A full-stack idea management application where users can store, manage, and analyze failed or abandoned ideas."
+}
+
 ];
+
 
 export default function Projects() {
   return (
