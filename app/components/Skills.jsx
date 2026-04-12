@@ -5,6 +5,8 @@ const skills = [
   "React",
   "Next.js",
   "Tailwind CSS",
+  " Mongo Db",
+  "Node js"
 ]
 
 export default function Skills() {

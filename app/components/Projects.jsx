@@ -10,6 +10,14 @@ const projects = [
     desc: "Landing page website built for Zenze Charge with responsive layout and modern UI.",
   },
   {
+    id: "wonder-bag",
+    title: "WonderBag E-commerce",
+    tech: "React · Node.js · MongoDB · Razorpay",
+    github: "https://github.com/VISHAL29OCT/wonderbag",
+    live: "https://wonderbag-jv2i.vercel.app/",
+    desc: "A full-stack e-commerce platform with authentication, cart, orders, and secure payments, focused on performance, responsive UI, and smooth user experience."
+  },
+  {
     id: "link-shortener",
     title: "Link Shortener",
     tech: "MongoDB · API",
@@ -17,14 +25,14 @@ const projects = [
     live: "https://linkshortner-o1rl.vercel.app",
     desc: "A modern web project focused on performance, UX, and clean design.",
   },
-{
-  id: "digitalgraveyard",
-  title: "Digital Graveyard",
-  tech: "React.js · Node.js · Express.js · MongoDB ",
-  github: "https://github.com/VISHAL29OCT/digitalgraveyardfrontend",
-  live: "https://digitalgraveyardfrontend.vercel.app",
-  desc: "A full-stack idea management application where users can store, manage, and analyze failed or abandoned ideas."
-}
+  {
+    id: "digitalgraveyard",
+    title: "Digital Graveyard",
+    tech: "React.js · Node.js · Express.js · MongoDB ",
+    github: "https://github.com/VISHAL29OCT/digitalgraveyardfrontend",
+    live: "https://digitalgraveyardfrontend.vercel.app",
+    desc: "A full-stack idea management application where users can store, manage, and analyze failed or abandoned ideas."
+  }
 
 ];
 
@@ -65,10 +73,10 @@ export default function Projects() {
               View Project →
             </a>
             <a href={project.live}
-            target="_blank"
-         className="inline-block mt-6 ml-3 text-sm text-purple-300 hover:text-white transition cursor-pointer">
+              target="_blank"
+              className="inline-block mt-6 ml-3 text-sm text-purple-300 hover:text-white transition cursor-pointer">
               Live Demo →
-              </a>
+            </a>
           </div>
         ))}
       </div>
