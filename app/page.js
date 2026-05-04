@@ -16,7 +16,7 @@ export default function Home() {
         <div className="max-w-4xl space-y-6 backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-10 shadow-2xl animate-float">
 
           <p className="uppercase tracking-widest text-sm text-purple-300">
-            Creative Frontend Developer
+            Creative Mern Stack Developer
           </p>
 
           <h1 className="text-5xl md:text-7xl font-serif leading-tight">
@@ -26,7 +26,7 @@ export default function Home() {
 
           <p className="text-lg text-gray-300 max-w-xl">
             I design and develop visually rich, animated, and interactive web
-            experiences using modern frontend tools.
+            experiences using modern web tools.
           </p>
 
           <div className="flex gap-4 pt-4">
