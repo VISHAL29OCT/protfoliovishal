@@ -2,11 +2,11 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "React",
-  "Next.js",
+  "Node js",
   "Tailwind CSS",
-  " Mongo Db",
-  "Node js"
+  " Mongo Db"
 ]
 
 export default function Skills() {
