@@ -32,7 +32,16 @@ const projects = [
     github: "https://github.com/VISHAL29OCT/digitalgraveyardfrontend",
     live: "https://digitalgraveyardfrontend.vercel.app",
     desc: "A full-stack idea management application where users can store, manage, and analyze failed or abandoned ideas."
-  }
+  },
+ {
+    id: "saundryawebsite",
+    title: "saundrya a  jwellery website",
+    tech: "React.js · Node.js · Express.js · MongoDB ",
+    github: "https://github.com/VISHAL29OCT/saundrya",
+    live: "https://amma-webclone.vercel.app/",
+    desc: "A full-stack jewelry e-commerce website featuring secure authentication, shopping cart, Razorpay payments, and a responsive user experience built with React and Node.js."
+  },
+  
 
 ];
 
